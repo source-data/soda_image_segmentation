@@ -1,4 +1,7 @@
 models/
+data/soda_panelization_figures
+data/segmented_images
+data/failures
 
 *.pyc
 .env
