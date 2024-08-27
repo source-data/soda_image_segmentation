@@ -1,0 +1,14 @@
+models/
+data/
+
+*.pyc
+.env
+uploads/
+
+.ipynb_checkpoints/
+
+data_examples/
+
+./Trash*
+
+*.log
