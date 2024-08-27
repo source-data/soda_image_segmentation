@@ -28,10 +28,10 @@ The SODA Image Segmentation project aims to train a multimodal model to separate
 
 1. **Clone the repository:**
 
-    \`\`\`bash
+    ```bash
     git clone https://github.com/yourusername/soda_image_segmentation.git
     cd soda_image_segmentation
-    \`\`\`
+    ```
 
 2. **Set up the environment:**
 
@@ -39,17 +39,17 @@ The SODA Image Segmentation project aims to train a multimodal model to separate
 
    **Using \`virtualenv\` or \`conda\`:**
 
-    \`\`\`bash
+    ```bash
     python -m venv venv
     source venv/bin/activate  # On Windows, use \`venv\Scripts\activate\`
     pip install -r requirements.txt
-    \`\`\`
+    ```
 
    **Using Docker:**
 
-    \`\`\`bash
+    ```bash
     docker-compose up --build
-    \`\`\`
+    ```
 
    This will build and start a Docker container with all dependencies installed.
 
@@ -71,21 +71,21 @@ The SODA Image Segmentation project aims to train a multimodal model to separate
 
     From the doker environment:
 
-    \`\`\`bash
+    ```bash
     python src/train_object_detection.py
-    \`\`\`
+    ```
 
     Evaluate the model performance on the SourceData dataset
 
-    \`\`\`bash
+    ```bash
     python src/evaluate_on_soda.py
-    \`\`\`
+    ```
 
 3. **Match the extracted panels to their correspondent panel captions**
 
-   \`\`\`bash
+   ```bash
     python src/panel_label_matching.py
-    \`\`\`
+    ```
 
     Then check the results using the notebook provided on `notebooks/panel_matching_accuracy.ipynb`
 
